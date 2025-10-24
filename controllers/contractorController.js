@@ -27,11 +27,11 @@ exports.getAll = async (req, res) => {
   }
 };
 
-exports.getById = async (req, res) => {
+/* exports.getById = async (req, res) => {
   try {
     const contractor = await ContractorService.getContractorById(req.params.id);
     res.status(200).json(contractor);
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
-};
+}; */
